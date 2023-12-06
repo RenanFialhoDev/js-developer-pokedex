@@ -78,6 +78,10 @@
     background-color: #f9aec7;
 }
 
+.card {
+    cursor: pointer;
+}
+
 .card .pokemon {
     display: flex;
     flex-direction: column;    
