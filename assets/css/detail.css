@@ -1,0 +1,16 @@
+.back-button-container {
+    margin-top: 1rem;
+    padding: 0.125rem 0.25rem;
+    
+}
+.back-button-container button#back-button {
+    border: none;
+    background: none;
+}
+.back-button-container img {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #fff;
+}
+
+
