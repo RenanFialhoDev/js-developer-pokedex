@@ -1,9 +1,12 @@
+* {
+    color: #FFF;
+}
 .back-button-container {
     margin-top: 1rem;
-    padding: 0.125rem 0.25rem;
+    padding: 0.125rem 0.5rem;
     
 }
-.back-button-container button#back-button {
+.back-button-container button#backButton {
     border: none;
     background: none;
 }
@@ -13,4 +16,87 @@
     color: #fff;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 1rem;
+}
+
+.container .description {
+    margin-right: auto;
+    .name {
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+    .number {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    
+}
+
+
+.container .detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: auto;
+}
+
+.container .detail .types {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    column-gap: 0.25rem;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.container .detail .types .type {
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    font-size: .725rem;
+    border-radius: 0.175rem;
+    filter: brightness(1.1);
+    text-align: center;
+    font-weight: 300;
+    width: 100%;
+}
+
+.container img {
+    border-style: none;
+    width: 25rem;
+    height: 25rem;
+}
+
+.container .stats {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 2rem;
+    font-weight: 300;
+    width: 100%;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.3);
+
+}
+
+.container .stats .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .stats .stat .value {
+    font-weight: 700;
+}
+.container .stats .stat .attribute {
+    font-size: 1rem;
+    padding-top: 0.5rem;    
+}
 

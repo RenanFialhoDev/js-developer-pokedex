@@ -25,14 +25,48 @@
 
 <body class="grass">
     <section class="back-button-container">
-        <button id="back-button">
+        <button id="backButton">
             <img src="assets/img/svg/left-arrow-back.svg" />
         </button>
     </section>    
-    <section>
+    <section class="container">
+        <div class="detail">
+            <div class="types">
+                <div class="type grass">Grass</div>
+                <div class="type poison">Poison</div>
+            </div>
+        </div>
 
+        <div class="description">
+            <span class="name">Bulbasaur</span>
+            <span class="number">#001</span>       
+        </div>
+        
+        <img src="assets/img/png/1.png" />
+
+        <div class="stats">
+            <div class="stat">
+                <span class="value">45</span>
+                <span class="attribute">HP</span>
+            </div>
+            <div class="stat">
+                <span class="value">45</span>
+                <span class="attribute">Attack</span>
+            </div>
+            <div class="stat">
+                <span class="value">45</span>
+                <span class="attribute">Defense'</span>
+            </div>
+            <div class="stat">
+                <span class="value">45</span>
+                <span class="attribute">Speed'</span>
+            </div>
+        </div>
         
     </section>
+    <script src="/assets/js/pokemon-model.js"></script>
+    <script src="/assets/js/poke-api.js"></script>
+    <script src="assets/js/detail.js"></script>
 </body>
 
 </html>
