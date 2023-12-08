@@ -64,4 +64,4 @@ loadMoreButton.addEventListener('click', () => {
 
 pokemonList.addEventListener('click', e => {
 
-})
+});
