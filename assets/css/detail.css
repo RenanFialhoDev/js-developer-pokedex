@@ -104,3 +104,14 @@
     padding-top: 0.5rem;    
 }
 
+@media screen and (min-width: 576px) {
+    .container {
+        margin: 2rem 10rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        margin: 2rem 15rem;
+    }
+}
