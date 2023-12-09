@@ -7,6 +7,22 @@ body {
     background-color: #f6f8fc;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+}
+
+.title img {
+    width: 2rem;
+}
+
 .content {
     width: 100vw;
     height: 100vh;
