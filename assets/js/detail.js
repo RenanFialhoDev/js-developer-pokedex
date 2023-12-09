@@ -37,8 +37,8 @@ function showPokemonInfoDetail(pokemon) {
 
 function loadPokemonDetail() {
     pokeApi.getPokemonById(pokemonId).then((pokemon) => {
-        const pokeIndoHtml = showPokemonInfoDetail(pokemon);
-        container.innerHTML += pokeIndoHtml;
+        const pokeInfoHtml = showPokemonInfoDetail(pokemon);
+        container.innerHTML += pokeInfoHtml;
         changeBodyBackground(pokemon.type);
     });
 }
